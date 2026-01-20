@@ -1,0 +1,257 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Miniver&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400..700&family=Miniver&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+ */
+ @import url('https://fonts.googleapis.com/css2?family=Domine:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  font-family: "Domine", sans-serif;
+ }
+
+ :root{
+    /*#a78d78
+    9c6644
+    6e473b secondary color
+    
+    e1d4c2 primary key t3 9bl
+    54362b secondary key t3 9bl
+    */
+    --primary-color:#fcf5ed;
+    --secondry-color:#78553f;
+    /*ad7948*/
+ }
+/*for whole website*/
+ul{
+    list-style: none;
+  }
+
+a{
+    text-decoration: none;  
+  }
+ 
+  button{
+    cursor: pointer;
+    border:none;
+    background: none;
+  }
+
+
+body{
+background-color: var(--primary-color);
+}
+ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
+    position: relative;
+    z-index: 10;
+    height: 100%;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+}
+ .logo-img{
+    width: 50px;
+    height: auto;
+    left: 10px;
+    margin-left: 20px;
+}
+ header .navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
+    position: relative;
+    z-index: 10;
+ }
+
+
+ .navbar .nav-logo .logo-text{
+    color: black;
+    font-size: 110%;
+    font-weight: bold;
+
+ }
+
+ .navbar .nav-menu {
+    display: flex;           
+    gap: 50px;               
+    align-items: center; 
+    margin-right: 30px;    
+}
+ 
+.nav-link{
+position: relative;
+text-decoration: none;
+font-weight: 700;
+padding-bottom: 5px;
+color: black;
+ }
+.nav-link::after{
+content: '';
+position: absolute;
+left: 0;
+bottom: 0;
+width: 0;
+height: 2px;
+background-color: black;
+}
+.nav-link:hover::after{
+    width: 100%;
+}
+
+
+.header{
+    text-align: center;
+    padding: 60px 20px;
+    background: var(--primary-color);
+}
+
+.header h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: var(--secondry-color);
+}
+
+
+.header p{
+    font-size: 20px;
+    color:var(--secondry-color);
+    margin-top: 50px; 
+}
+.contact {
+    display: flex;
+    gap: 40px;
+    padding: 60px 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.contact-info {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    flex: 1;
+}
+
+.box{
+    background: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    transition: 0.3s;
+ 
+}
+
+.box :hover{
+    transform: translateY(-5px);
+}
+.box h3{
+    color: var(--secondry-color);
+    margin-bottom: 8px;
+   margin-left: 60px;
+
+}
+.box p{
+   text-align: center;
+}
+
+.icon-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition:transform 0.3s;
+}
+
+.icon-link .icon{
+    width: 85px;
+    height: auto;
+    margin-top: 10px;
+     display: block;
+    margin: 30px auto;
+}
+.contact-from{
+    flex: 1;
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
+
+.contact-from h2{
+    margin-bottom: 20px;
+    color: var(--secondry-color);
+    text-align: center;
+}
+
+.contact-from input:focus,.contact-from textarea:focus{
+    outline: none;
+}
+
+.contact-from input,.contact-from textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.contact-from textarea{
+    height: 120px;
+    resize: none;
+}
+.contact-from button{
+width: 40%;
+padding: 15px;
+background: var(--secondry-color);
+color: #fff;
+border: none;
+border-radius: 25px;
+cursor: pointer;
+display: block;
+margin: 20px auto 0;
+}
+
+footer{
+    background:var(--secondry-color);
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 60px;
+}
+
+.navbar .nav-profile-img {
+    width: 35px;        
+    height: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.navbar .nav-item a {
+    padding: 0; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+

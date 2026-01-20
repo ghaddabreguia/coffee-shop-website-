@@ -1,0 +1,48 @@
+.dashboard-box { 
+    width: 350px;
+    margin: 120px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);  
+}
+
+.dashboard-box h2{
+    margin-bottom: 25px;
+    font-size: 24px;
+    color: #333;
+}
+
+.dash-link{
+    display: block;
+    margin: 10px 0;
+    padding: 12px;
+    background: #0077cc;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px; 
+    font-weight: bold;
+}
+
+.dash-link:hover{
+    background: #005fa3;
+}
+
+.dash-link.logout{
+    background: #d9534f;
+}
+
+.dash-link.logout:hover{
+    background: #c9302c;
+}
+
+
+.success-msg{
+    background: #d4edda;
+    color: #155724;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    font-weight: bold;
+}

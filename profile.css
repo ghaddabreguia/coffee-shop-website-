@@ -1,0 +1,99 @@
+
+
+.profile-box img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 2px solid #555;
+}
+
+.profile-box h2 {
+    margin: 0 0 15px;
+    font-size: 24px;
+    color: #333;
+}
+
+.profile-box p {
+    margin: 8px 0;
+    font-size: 16px;
+    color: #555;
+}
+
+.profile-box a {
+    display: inline-block;
+    margin-top: 15px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #0077cc;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.profile-box a:hover {
+    background-color: #005fa3;
+}
+
+
+.navbar .nav-profile-img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+
+.logout{
+    background-color: #d9534f;
+}
+
+.logout:hover{
+    background-color: #c9302c;
+}
+
+
+
+.profile-box {
+    width: 360px;
+    margin: 120px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+.profile-box input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.profile-box input[type="password"]{
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.profile-box button {
+    width: 100%;
+    padding: 12px;
+    background: #0077cc;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.profile-box button:hover {
+    background: #005fa3;
+}
